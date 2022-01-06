@@ -41,7 +41,6 @@ body {
 .section {
   padding: 94px 0;
 }
-
 .main-title-section {
   font-weight: 700;
   font-size: 36px;
@@ -50,6 +49,7 @@ body {
   color: var(--title-color);
   margin-bottom: 50px;
 }
+
 /* -----header----- */
 
 .header {
@@ -72,7 +72,6 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
 .header-logo,
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -147,7 +146,9 @@ body {
 .header-tel:focus .tel-icon {
   color: var(--accent-color);
 }
+
 /* -----main------ */
+
 .hero-container {
   max-width: 1600px;
   padding: 200px 0;
@@ -195,6 +196,7 @@ body {
 .hero-btn:focus {
   background: #188ce8;
 }
+
 /* section 1 */
 .main-section-one {
   padding-bottom: 0;
@@ -238,6 +240,7 @@ body {
   line-height: 1.71;
   color: var(--text-color);
 }
+
 /* section 2 */
 .list-two {
   display: flex;
@@ -251,11 +254,11 @@ body {
   margin-top: var(--gap);
   margin-left: var(--gap);
 }
+
 /* section team */
 .main-section-team {
   background: #f5f4fa;
 }
-
 .list-team {
   display: flex;
   flex-wrap: wrap;
@@ -359,7 +362,9 @@ body {
 
   fill: currentColor;
 }
+
 /* !------maine portfolio-----! */
+
 .main-section-nav {
   padding-bottom: 50px;
 }
@@ -392,7 +397,6 @@ body {
   background: var(--btn-color);
   color: var(--header-color);
 }
-
 .main-section-project {
   padding-top: 0;
 }
@@ -435,14 +439,26 @@ body {
 .project-info {
   padding: 24px 20px;
 }
+
 /* -----footer------ */
+
 .footer {
   background: var(--footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-connect {
+  display: flex;
+}
+.footer-adress {
+  margin-right: 70px;
+}
+.footer-logo {
+  margin-bottom: 20px;
+  display: block;
+}
 .logo-white {
-  color: #ffffff;
+  color: var(--header-color);
 }
 .footer-item {
   font-style: normal;
@@ -466,19 +482,18 @@ body {
 .footer-link-tel:focus {
   color: var(--accent-color);
 }
+
 /* footer social link */
 .footer-title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: var(--header-color);
+
+  margin-bottom: 20px;
 }
 .footer-social-list {
   display: flex;
-  justify-content: center;
-}
-.team-social-item + .team-social-item {
-  margin-left: 10px;
 }
 .footer-social-link {
   width: 44px;
@@ -489,6 +504,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--header-color);
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-social-icon {
   width: 20px;
@@ -499,4 +515,7 @@ body {
 .footer-social-link:focus {
   background-color: var(--accent-color);
   color: var(--header-color);
+}
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
 }
